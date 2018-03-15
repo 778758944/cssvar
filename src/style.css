@@ -1,0 +1,10 @@
+:root {
+	--bgcolor: #ff0;
+	--width: 100;
+}
+
+.test {
+	width: calc(var(--width) * 3px);
+	height: 200px;
+	background: var(--bgcolor);
+}
